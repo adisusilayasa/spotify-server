@@ -1,4 +1,4 @@
-# Simple Spotify Playlist Server
+# Spotify Playlist Server
 
 Simple Spotify Playlist Server is a REST service built with Express.js. It allows users to manage playlists and songs. The application follows clean architecture principles to ensure modularity and maintainability.
 
@@ -21,17 +21,17 @@ Simple Spotify Playlist Server is a REST service built with Express.js. It allow
 
 - Create & update playlist:
   {
-    "name": "My New Playlist",
-    "description": "A collection of my favorite songs"
+    "name": <name>,
+    "description": <description>
   }
 
 - Adding a song to the playlist:
 
   {
-    "title": "Stand by Me",
-    "artists": ["Oasis"],
-    "album": "Be Here Now",
-    "external_url": "https://open.spotify.com/intl-id/track/2gANywSFYF58YFMPdDSAjC?si=51548c3b47fe45a9"
+    "title": <>title,
+    "artists": <artist>,
+    "album": <album>,
+    "external_url": <spotify link>
   }
 
 
